@@ -1,0 +1,61 @@
+*Metadata: Data that describes data
+--every dataset should have this
+--type of asset, author, date created, usage, file size, etc
+
+*Unsupervised learning is key when labeling data becomes very expensive.
+Techniques to Achieve Generative AI:
+-LLMs
+-Diffusion Models **Used for generating images and video
+-Generative Adverserial networks (GANs) **Generating text and images
+-Neural Radiance Fields **Specialized AI for 3D modeling
+-Hybrid Models *Combines LLMs and GANs
+Two Types of LLMs
+-Masked **Guess the missing word, regardless of its position in a sentence
+-Autoregressive **Predicts the next word
+
+**RNNs are used greatly for text, difficulty is handling large text (vanishing gradient)
+----Long short-term memory (LSTMs) was created to help this.
+
+*Transformers & The attention mechanism
+---Assess the significance of the words or parts of words (tokens) in an input sequence to generate an output
+
+
+you can prompt a model to "take your time"
+
+optimize model size for inference time
+--parallel computing can also help
+
+popular open source vdb
+-Chroma, Weaviate, milvus, elasticsearch
+
+AI Evaluation Tools:
+--Using AI as a judge --eval output of main chatbot/AI application
+
+Jobs in AI:
+--AI strategist (Technical Role)
+---focusing on business goals and how AI can be used within the business. Identify and map multiple AI use cases, company will then use cases that best align with their problems. Basically everything that deals with AI and how it can help the business.
+---Can help sell products and services
+---Improve your company's processes
+---Facilitate decision-making
+---AI evangelism: promoting AI adaptation throughout the company
+---Requirements: Data scientist w/ extensive background in AI, comprehensive business understanding, strategic and technical expertise in ML and AI. strong soft skills - communication and management.
+
+--AI Developer:
+---builds foundation models
+---spends a lot of time researching
+---understand the optimal architecture and decide on the model design
+---after initial step, go into dataset engineering and procced from there.
+---requires advanced technical skills: Python, numpy, panadas, statistics, linear algebra, calc, probability
+---Gen AI, NLP, Token, transformers, devops practices, tools like docker, api/cloud
+
+--AI Engineer:
+---builds applications on top of foundation models
+---not focused on modeling and training
+---they integrate AI foundation models that are already built. Build bridge between those and a needed product.
+---fine tuning, rag, prompt engineering
+---strong coding skills, python, script initial data analysis, explore data sets, prototype simple models.
+---using the help from bumpy and pandas
+---Hf is valuable for these engineers, langchain, databricks, etc.
+---solid understanding of llms and nlp
+---using contain tools like docker
+---combine ml engineering, AI and software dev skills
